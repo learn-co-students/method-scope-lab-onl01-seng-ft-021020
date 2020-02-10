@@ -4,9 +4,9 @@
 
 1. Define a method that takes in an argument and pass a variable in as that argument.
 2. Understand that a variable defined inside a method cannot be used outside of that method.
-
+''
 ## Instructions
-
+''
 ### Part I: Passing a Variable Into a Method
 
 Open up `lib/catch_phrase.rb`. You should see the following method:
@@ -99,7 +99,7 @@ Run the test suite and you'll see that we are passing all of our tests. If you
 open up the `spec/rescue_princess_peach_spec.rb` file, you'll see the following
 test:
 
-```ruby
+ruby
 require "spec_helper"
 
 describe "#rescue_princess_peach" do
@@ -108,7 +108,7 @@ describe "#rescue_princess_peach" do
     expect{puts status}.to raise_error(NameError)
   end
 end
-```
+
 
 Notice the last expectation of our test: `expect{puts status}.to
 raise_error(NameError)`. We expect any attempt to use the `status` variable to

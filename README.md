@@ -64,8 +64,8 @@ Open up `lib/rescue_princess_peach.rb` and take a look at the following method:
 
 ```ruby
 def rescue_princess_peach
-  status = "rescued"
-  puts "Hooray! Mario has rescued Princess Peach."
+  status = rescued
+puts  Hooray! Mario has rescued Princess Peach.
 end
 ```
 
@@ -76,8 +76,8 @@ outside of the method? Let's find out!
 1 . Un-comment the following lines in your `lib/rescue_princess_peach.rb` file:
 
 ```ruby
-rescue_princess_peach
-puts status
+
+status
 ```
 
 2 . Run the file with `ruby lib/rescue_princess_peach.rb` in your terminal. You should see the following:
